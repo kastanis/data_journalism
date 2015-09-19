@@ -7,6 +7,10 @@
             max-width: 600px;
             margin: auto;
         }
+        .notes {
+            max-width: 600px;
+            margin: auto;
+        }
         h1 {
             background-color: black;
             font-family: helvetica, arial, sans-serif;
@@ -15,20 +19,306 @@
             font-size: 30px;
             padding: 3px;
             color: white;
+            margin-top: 30px;
+        }
+        h1.header {
+            text-align: center;
+        }
+        ul.a, caption, th, td {
+            font-family: helvetica, arial, sans-serif;
+            list-style-type: disc;
+        }
+        ul.b {
+            line-height: 20px;
+        }
+        #to_me {
+            background-color: teal;
+            font-family: helvetica, arial, sans-serif;
+            padding: 3px;
+            color: white;
+        }
+/*this was for if i showed my e
+        img.gif {
+            width:34%;
+            float:left;
+            margin-bottom: 5px;
+            margin-right: 3%;
+        }
+        img.marriage {
+            width:30%;  
+            float:center;
+            margin-bottom: 5px;
+            margin-right: 1%;
+            border-style: solid;
+            border-color: lightgray;
+            border-width: 1px;
+        }
+        img.divide {
+            width:30%;  
+            float:right;
+            margin-bottom: 5px;
+        }
+*/
+/*link style 1
+        a:link {
+        color: black;
+        }
+        a:visited {
+        color: darkcyan;
+        }
+        a:hover, a:active {background: aqua; color:white;}
+*/
+        a:link {
+        color: white;
+        background: aqua;
+        text-decoration: none;
+        }
+        a:visited {
+        color: white;
+        background: aquamarine;
+        }
+        a:hover, a:active {background: aquamarine; color:white;}
+/*
+        #bold {
+        font-weight: bold;
+        }
+*/
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        cellspacing:"1"; 
+        cellpadding:"1"; 
+        width: "100%";
+        }
+        table {
+        margin-top: 40px;
+        margin-bottom: 5px;
+        }
+        th, td {
+        text-align: center;
+        }
+        .data_link {
+        float: right;
+        margin-bottom: 40px;
+        }
+        .tools {
+        width: 30%;
         }
     </style>
 </head>
 <body>
     <div class="content">
-        <h1>data journalism</h1>
-        <div id= "chap1"></div>
-        <h1>big data</h1>
+    <h1 class="header">data + journalism</h1>
+        <ul class="a">
+            <li>introduction</li>
+            <li>some of my work</li>
+                <ul class="b">
+                    <li><a href="http://williamsinstitute.law.ucla.edu/lgbtdivide">lgbt divide</a></li>
+                    <li><a href="http://williamsinstitute.law.ucla.edu/visualization/EconomicImpact">same-sex marriage and the economy</a></li>
+                    <li><a href="http://williamsinstitute.law.ucla.edu/wp-content/uploads/Employ-Red-Animate-fix-full.gif">employment protections over time</a></li>
+                </ul>
+        </ul>
+    <h1>why data + journalism</h1>
         <img class="pretty" src="../data_journalism/Big-Data.jpg" style="width: 100%">
-        <h1>what is data</h1>
-        <h1>what to do with data</h1>
-        <h1>where to find data</h1>
-        <h1>how to visualize data</h1>
-        <h1>? questions ?</h1>  
-    </div>
+        <ul class="a">
+            <li>technology</li>
+            <li>increase in eye-witness journalism</li>
+            <li>big data + data collection</li>
+                <ul class="a">
+                    <li>smartphones</li>
+                    <li>facebook</li>
+                </ul>
+        </ul>
+    <h1>easing into data</h1>
+        <img class="pretty" src="../data_journalism/oracle_arena.jpg" style="width: 100%">
+        <ul class="a">
+<!--            <li id="bold">start small</li>-->
+            <li>step 1: start small</li>
+            <li>step 2: get to know spreadsheets</li>
+                    <ul class="b">
+                    <li><a href="https://www.google.com/sheets/about">google docs (sheets)</a></li>
+                    <li><a href="https://office.live.com/start/Excel.aspx">microsoft office (excel)</a></li>
+            </ul>
+            <li>step 3: add data</li>
+            <li>step 4: understand what you are looking at!</li>
+        </ul>
+        <table>
+            <caption>Golden State Warriors Box Score</caption>
+            <tr height=15 style='height:15.0pt;outline: 0px'>
+  <td height=15 class=xl65 width=89 style='height:15.0pt;width:89pt;outline: 0px'></td>
+  <td class=xl66 width=44 style='width:44pt;outline: 0px'>POS</td>
+  <td class=xl66 width=65 style='width:65pt;outline: 0px'>MIN</td>
+  <td class=xl66 width=65 style='width:65pt;outline: 0px'>REB</td>
+  <td class=xl66 width=65 style='width:65pt;outline: 0px'>AST</td>
+  <td class=xl66 width=65 style='width:65pt;outline: 0px'>PF</td>
+  <td class=xl66 width=65 style='width:65pt;outline: 0px'>ST</td>
+  <td class=xl66 width=65 style='width:65pt;outline: 0px'>TO</td>
+  <td class=xl66 width=65 style='width:65pt;outline: 0px'>PTS</td>
+ </tr>
+            <tr height=15 style='height:15.0pt;outline: 0px'>
+  <td height=15 style='height:15.0pt;outline: 0px'>A. Iguodala</td>
+  <td class=xl65 style='outline: 0px'>F</td>
+  <td class=xl67 align=right style='outline: 0px'>42:28:00</td>
+  <td class=xl65 align=right style='outline: 0px'>8</td>
+  <td class=xl65 align=right style='outline: 0px'>7</td>
+  <td class=xl65 align=right style='outline: 0px'>2</td>
+  <td class=xl65 align=right style='outline: 0px'>3</td>
+  <td class=xl65 align=right style='outline: 0px'>0</td>
+  <td class=xl65 align=right style='outline: 0px'>14</td>
+ </tr>
+            <tr height=15 style='height:15.0pt;outline: 0px'>
+              <td height=15 style='height:15.0pt;outline: 0px'>H. Barnes</td>
+              <td class=xl65 style='outline: 0px'>F</td>
+              <td class=xl67 align=right style='outline: 0px'>29:16:00</td>
+              <td class=xl65 align=right style='outline: 0px'>10</td>
+              <td class=xl65 align=right style='outline: 0px'>2</td>
+              <td class=xl65 align=right style='outline: 0px'>3</td>
+              <td class=xl65 align=right style='outline: 0px'>2</td>
+              <td class=xl65 align=right style='outline: 0px'>1</td>
+              <td class=xl65 align=right style='outline: 0px'>8</td>
+             </tr>
+            <tr height=15 style='height:15.0pt;outline: 0px'>
+              <td height=15 style='height:15.0pt;outline: 0px'>D. Green</td>
+              <td class=xl65 style='outline: 0px'>C</td>
+              <td class=xl67 align=right style='outline: 0px'>35:31:00</td>
+              <td class=xl65 align=right style='outline: 0px'>9</td>
+              <td class=xl65 align=right style='outline: 0px'>6</td>
+              <td class=xl65 align=right style='outline: 0px'>4</td>
+              <td class=xl65 align=right style='outline: 0px'>0</td>
+              <td class=xl65 align=right style='outline: 0px'>4</td>
+              <td class=xl65 align=right style='outline: 0px'>16</td>
+             </tr>
+            <tr height=15 style='height:15.0pt;outline: 0px'>
+              <td height=15 style='height:15.0pt;outline: 0px'>K. Thompson</td>
+              <td class=xl65 style='outline: 0px'>G</td>
+              <td class=xl67 align=right style='outline: 0px'>40:05:00</td>
+              <td class=xl65 align=right style='outline: 0px'>3</td>
+              <td class=xl65 align=right style='outline: 0px'>2</td>
+              <td class=xl65 align=right style='outline: 0px'>5</td>
+              <td class=xl65 align=right style='outline: 0px'>0</td>
+              <td class=xl65 align=right style='outline: 0px'>1</td>
+              <td class=xl65 align=right style='outline: 0px'>12</td>
+             </tr>
+            <tr height=15 style='height:15.0pt;outline: 0px'>
+              <td height=15 style='height:15.0pt;outline: 0px'>S. Curry</td>
+              <td class=xl65 style='outline: 0px'>G</td>
+              <td class=xl67 align=right style='outline: 0px'>42:07:00</td>
+              <td class=xl65 align=right style='outline: 0px'>7</td>
+              <td class=xl65 align=right style='outline: 0px'>4</td>
+              <td class=xl65 align=right style='outline: 0px'>2</td>
+              <td class=xl65 align=right style='outline: 0px'>2</td>
+              <td class=xl65 align=right style='outline: 0px'>5</td>
+              <td class=xl65 align=right style='outline: 0px'>37</td>
+             </tr>
+            <tr height=15 style='height:15.0pt;outline: 0px'>
+              <td height=15 style='height:15.0pt;outline: 0px'>S. Livingston</td>
+              <td class=xl65 style='outline: 0px'></td>
+              <td class=xl68 align=right style='outline: 0px'>21:17</td>
+              <td class=xl65 align=right style='outline: 0px'>2</td>
+              <td class=xl65 align=right style='outline: 0px'>3</td>
+              <td class=xl65 align=right style='outline: 0px'>2</td>
+              <td class=xl65 align=right style='outline: 0px'>0</td>
+              <td class=xl65 align=right style='outline: 0px'>2</td>
+              <td class=xl65 align=right style='outline: 0px'>2</td>
+             </tr>
+            <tr height=15 style='height:15.0pt;outline: 0px'>
+              <td height=15 style='height:15.0pt;outline: 0px'>L. Barbosa</td>
+              <td class=xl65 style='outline: 0px'></td>
+              <td class=xl68 align=right style='outline: 0px'>17:02</td>
+              <td class=xl65 align=right style='outline: 0px'>2</td>
+              <td class=xl65 align=right style='outline: 0px'>0</td>
+              <td class=xl65 align=right style='outline: 0px'>3</td>
+              <td class=xl65 align=right style='outline: 0px'>0</td>
+              <td class=xl65 align=right style='outline: 0px'>2</td>
+              <td class=xl65 align=right style='outline: 0px'>13</td>
+             </tr>
+            <tr height=15 style='height:15.0pt;outline: 0px'>
+              <td height=15 style='height:15.0pt;outline: 0px'>D. Lee</td>
+              <td class=xl65 style='outline: 0px'></td>
+              <td class=xl68 align=right style='outline: 0px'>9:01</td>
+              <td class=xl65 align=right style='outline: 0px'>1</td>
+              <td class=xl65 align=right style='outline: 0px'>1</td>
+              <td class=xl65 align=right style='outline: 0px'>2</td>
+              <td class=xl65 align=right style='outline: 0px'>0</td>
+              <td class=xl65 align=right style='outline: 0px'>1</td>
+              <td class=xl65 align=right style='outline: 0px'>2</td>
+             </tr>
+            <tr height=15 style='height:15.0pt;outline: 0px'>
+              <td height=15 style='height:15.0pt;outline: 0px'>F. Ezeli</td>
+              <td class=xl65 style='outline: 0px'></td>
+              <td class=xl68 align=right style='outline: 0px'>3:12</td>
+              <td class=xl65 align=right style='outline: 0px'>1</td>
+              <td class=xl65 align=right style='outline: 0px'>0</td>
+              <td class=xl65 align=right style='outline: 0px'>2</td>
+              <td class=xl65 align=right style='outline: 0px'>0</td>
+              <td class=xl65 align=right style='outline: 0px'>0</td>
+              <td class=xl65 align=right style='outline: 0px'>0</td>
+             </tr>
+        </table>
+        <a class="data_link" href="https://docs.google.com/spreadsheets/d/1rB_M1TigBB-Qdm1ogQoytV0S1QY9rWAHra2Y2U3CZSU/edit?usp=sharing">get this data</a>
+        <p style="clear: both;">
+<!--        if i want to use and image of the data instead
+        <img class="pretty" src="../data_journalism/GSW_boxscore.jpg" style="width: 100%">-->
+        <ul class="a">
+            <li>step 5: interview the data: who, what, where, when, why</li>            
+            <li>what does the data tell you? what questions can you answer? what questions are left unanswered?</li>
+            <li>look for gaps, highs/lows, group data</li>
+        </ul>
+        <img class="tools" src="../data_journalism/spreadsheet_tools.png">
+        </ul>
+    <h1>what to do with data</h1>
+        <img class="pretty" src="../data_journalism/MATH_logo.png" style="width: 100%">
+        <ul class="a">
+            <li>...but it's not the only thing.</li>
+        </ul>
+    <h1>working with data</h1>
+        <img class="pretty" src="../data_journalism/MATH_logo.png" style="width: 100%">
+        <ul class="a">
+            <li>start small</li>
+                    <ul class="b">
+                    <li><a href="http://williamsinstitute.law.ucla.edu/lgbtdivide">lgbt divide</a></li>
+                    <li><a href="http://williamsinstitute.law.ucla.edu/visualization/EconomicImpact">same-sex marriage and the economy</a></li>
+                    <li><a href="http://williamsinstitute.law.ucla.edu/wp-content/uploads/Employ-Red-Animate-fix-full.gif">employment protections over time</a></li>
+                </ul>
+            <li>movies</li>
+        </ul>
+    <h1>where to find data</h1>
+        <ul class="a">
+            <li>collect it yourself</li>
+            <li>look at available national datasets on the web (census)</li>
+            <li>look at organizations that may collect there own data</li>
+            <li>government sites/departments</li>
+            <li>FOIA: Freedom of Information Act</li>
+                    <ul class="b">
+                    <li><a href="http://williamsinstitute.law.ucla.edu/lgbtdivide">lgbt divide</a></li>
+                    <li><a href="http://williamsinstitute.law.ucla.edu/visualization/EconomicImpact">same-sex marriage and the economy</a></li>
+                    <li><a href="http://williamsinstitute.law.ucla.edu/wp-content/uploads/Employ-Red-Animate-fix-full.gif">employment protections over time</a></li>
+                </ul>
+            <li>movies</li>
+        </ul>
+    <h1>how to visualize data</h1>
+    <h1>? questions ?</h1>  
+</div>
+<div class="notes">
+<p id="to_me"> for my eyes only:
+        <ul class="a">
+            <li>introduction</li>
+                <p>My name is Angeliki Kastanis. I am a policy analyst and researcher at UCLA. What that means is that I work with data everyday. Sometimes I am doing research to come up with the numbers. Other times I am taking numbers and finding out how to visualize them and communicate them to the public. I expect that most of you will be most interested in how to visualize and communicate data to the public.</p>
+            <li>my work examples</li>
+                <p>Just to get an idea of what I do, here are some examples of data interactives that I have created at my work. I will open the first one, but you can see the other two on your own time.</p>
+            <li>why data + journalism</li>
+                <p>technology</p>
+                <p>I'm sure you have talked about the shift in journalism and the increase in how regular people can report stories as they happen: real-time bloggers, eye-witness accounts on twitter, pictures on instagram and now periscope, where you can live stream your own content worldwide.</p>
+                <p>another trend that happened at about the same time was the increase in data collection. every day you are producing data that someone can track. Your phone shows where you are. your facebook page tells what you like. but it goes beyond that. the web has made data more accessible now than ever before.</p>
+                <p>journalists found a space in the middle ground between these two trends. a way to look at a story using a big picture lens and to get away from the <em> or provide context for </em>personalized accounts.</p>
+                <p>thus, data + journalism</p>
+            <li>easing into data</li>
+                <p>one area where people are pretty comfortable talking about data and numbers is in sports. it is not uncommon to find a table of the latest games stats in a local or national paper. espn.com has an immense amount of data at your fingertips. so, we are going to get hands on with some basketball data.</p>
+            <p>we are going to start small. take a look at this table. i want you to interview it, just like you would interview someone for a story you are working on. take pictures of the data from different angles. look at any numbers that signal that there may be a story in there. numbers that you can quote for your story.
+what can you tell me?</p>
+            
+        </ul>
+</p>
+</div>
 </body>
 </html>
